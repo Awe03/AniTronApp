@@ -1,0 +1,44 @@
+{
+  "name": "anitron",
+  "productName": "AniTron",
+  "version": "1.0.0",
+  "description": "Watch anime for ad free, for free",
+  "main": "app.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Awe03/AniTronApp.git"
+  },
+  "scripts": {
+    "start": "electron app.js",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "build": {
+    "appId": "AniTron",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "uninstallDisplayName": "AniTron",
+      "license": "license.txt",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "author": "Awe",
+  "private": true,
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^21.1.0",
+    "electron-builder": "^23.6.0",
+    "electron-updater": "^5.3.0"
+  },
+  "dependencies": {
+    "electron-updater": "^5.3.0"
+  }
+}
