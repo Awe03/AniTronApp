@@ -1,7 +1,7 @@
 
 # AniTronApp
 
-An application to watch [AniTron](https://anitron.pages.dev) on in a desktop app, without losing performance 
+An application to watch [AniTron](https://anitron.pages.dev) in a desktop app, without losing performance 
 
 ![](https://img.shields.io/depfu/dependencies/github/awe03/anitronapp?label=Dependencies&style=flat-square)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
